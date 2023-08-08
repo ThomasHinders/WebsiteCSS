@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+:root{
+    --main: #33A8DB;
+    --p: white;
+}
+p{
+    color: var(--p);
+}
+body{
+    background-color: black;
+}
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url(/banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    padding-top: 60px;
+    border-bottom: 1px solid var(--main);
+}
+header > *{
+    text-align: center;
+}
+.logo{
+    background-color: rgba(0, 0, 0, .2);
+    height: 260px;
+    width: 260px;
+    margin: auto;
+    border-radius: 50%;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+.logo img{
+    margin: auto;
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}
+h1{
+    color: var(--main);
+    font-size: 2.5rem;
+    text-transform: uppercase; 
+}
+header p{
+    color: var(--p);
+    font-size: 1.3rem;
+    margin: auto;
+    margin-top: 15px;
+    text-align: center;
+    width: 650px;
+}
+header button{
+    margin: auto;
+    margin-top: 15px;
+    display: block;
+    background-color: transparent;
+    padding: 20px;
+    color: var(--main);
+    border-color: var(--main);
+    width: 350px;
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: 4px;
+}
+.primeiraSection{
+    margin: auto;
+    text-align: center;
+    margin-top: 70px;
+    border-bottom: 1px solid var(--main);
+    height: 420px;
+}
+.primeiraSection h2, .terceiraSection h2{
+    color: var(--main);
+    text-transform: uppercase;
+    padding: 16px;
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+.primeiraSection p{
+    margin-top: 10px;
+    width: 800px;
+    text-align: center;
+    margin: auto;
+}
+.primeiraSection button{
+    width: 550px;
+    margin-top: 20px;
+    background-color: #252525;
+    color: white;
+    padding: 15px;
+    border-radius: 50px;
+    border-color: var(--main);
+    font-size: 1rem;
+}
+.primeiraSection span{
+    color: var(--main);
+}
+.segundaSection{
+    background-image: url(https://micheleambrosio.github.io/dio-trilha-css-desafio-01/assets/images/woman-code.png);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 560px;
+    border-bottom: 1px solid var(--main);
+    padding: 200px;
+}
+.segundaSection p{
+    text-shadow: 3px 2px #33A8DB;
+    font-size: 2.5rem;
+    width: 240px;
+}
+.terceiraSection{
+    height: 750px;
+    margin: auto;
+    text-align: center;
+    margin-top: 80px;
+}
+.terceiraSection h2{
+    max-width: 850px;
+    text-align: center;
+    margin: auto;
+}
+.terceiraSection img{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.terceiraSection p{
+    width: 800px;
+    text-align: center;
+    margin: auto;
+}
+footer{
+    border-top: 1px solid var(--main);
+    background: linear-gradient(rgba(50, 168, 219, .0), rgba(50, 168, 219, .2));
+    padding: 60px 0;
+    text-align: center;
+    margin-top: 50px;
+}
+footer a{
+    text-decoration: none;
+    color: var(--main);
+}
